@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Template Tab</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/login.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--Ícones Remix Icons-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+</head>
+
+<body class="body-login">
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main"></div>
+            
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="login" class="page color-theme-blue">
+
+                
+
+                <!-- Scrollable page content -->
+                <div class="login-content">
+                    <form>
+                        <h1 class="title-login">Bem vindo(a) á Rente</h1>
+                        <div class="input-container">
+                            <input placeholder="Email" type="email" required>
+                            <i class="icone-login ri-user-line"></i>
+                        </div>
+            
+                        <div class="input-container">
+                            <input placeholder="Senha" type="password" required>
+                            <i class="icone-login ri-lock-password-line"></i>
+                            <a href="#">Esqueci minha senha</a>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Entrar<a href="/index/"></a></button>
+            
+                        <div class="register-link">
+                            <p>Não está cadastrado? <a href="#">Cadastrar</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>
