@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Aspirador de Pó</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--Ícones Remix Icons-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main"></div>
+            
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="prod01" class="page color-theme-blue">
+
+                <!-- TAB BAR-->
+            <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex align-items-center justify-content-center">
+                        <div class="flex-40 text-align-center">
+                            <span class="riscado color-gray">R$ 50,00</span>
+                            <h3 class="princing no-padding no-margin">R$ 37,50</h3>
+                        </div>
+                        <div class="flex-60">
+                            <button class="add-cart">Adicionar ao Carrinho</button>
+                        </div>
+                </div>
+            </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="prod-detail">
+                        <div class="buttons-top">
+                            <a href="/index/"><i class="ri-arrow-left-s-line"></i></a>
+                            <a href="#"><i class="ri-heart-3-line"></i></a>
+                            <a href="#"><i class="ri-share-line"></i></a>
+                        </div>
+                        <img src="img/aspirador de po.png">
+                    </div>
+                    <div class="prod-content">
+                        <div class="block">
+                            <div class="line padding-top">
+                                <b>Aspirador de Pó</b>
+                                <button class="promo-btn">Promoção</button>
+                            </div>
+                            <div class="margin-top align-items-center justify-content-start">
+                                <button class="btn-rates">
+                                    <i class="mdi mdi-star"></i>
+                                    5.0
+                                </button>
+                                <button class="btn-rates">
+                                    <i class="ri-thumb-up-fill"></i>
+                                    90%
+                                </button>
+                                <span class="color-gray">12 Reviews</span>
+                            </div>
+                            <div class="display-flex align-items-center justify-content-center">
+                                <p>
+                                    Esse aspirador de pó é bem prático para o dia a dia. Ele suga a sujeira do chão, carpetes e até das superfícies mais difíceis, como cantos e frestas. Tem um motor que dá conta do recado e alguns acessórios extras, 
+                                    como um bocal estreito e uma escova, que ajudam a limpar lugares mais específicos. 
+                                </p>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>
+                                        Especificações
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>Motor</td>
+                                    <td>Universal</td>
+                                </tr>
+                                <tr>
+                                    <td>Tensão / Voltagem</td>
+                                    <td>220V</td>
+                                </tr>
+                                <tr>
+                                    <td>Potência elétrica</td>
+                                    <td>1600 W</td>
+                                </tr>
+                                <tr>
+                                    <td>Classe de isolação</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Frequência</td>
+                                    <td>60 Hz</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de plugue</td>
+                                    <td>2 pinos</td>
+                                </tr>
+                                <tr>
+                                    <td>Corrente elétrica / Amperagem</td>
+                                    <td>10 A (220V)</td>
+                                </tr>
+                                <tr>
+                                    <td>Vácuo</td>
+                                    <td>180 mbar</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de filtro</td>
+                                    <td>HEPA e Papel Descartável.</td>
+                                </tr>
+                                <tr>
+                                    <td>Níveis de filtragem</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Aspira água?</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Função de sopro?</td>
+                                    <td>Bocal de Sopro</td>
+                                </tr>
+                                <tr>
+                                    <td>Volume total do recipiente</td>
+                                    <td>50 L</td>
+                                </tr>
+                                <tr>
+                                    <td>Capacidade útil do recipiente<br>(líquidos / sólidos)</td>
+                                    <td>26 / 31 L</td>
+                                </tr>
+                                <tr>
+                                    <td>A bateria / sem fio?</td>
+                                    <td>Cabo</td>
+                                </tr>
+                                <tr>
+                                    <td>Comprimento cabo elétrico</td>
+                                    <td>4,5 m</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

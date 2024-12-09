@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Cortador de Grama</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--Ícones Remix Icons-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main"></div>
+            
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="prod03" class="page color-theme-blue">
+
+                <!-- TAB BAR-->
+            <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex align-items-center justify-content-center">
+                        <div class="flex-40 text-align-center">
+                            <span class="riscado color-gray">R$ 35,00</span>
+                            <h3 class="princing no-padding no-margin">R$ 31,50</h3>
+                        </div>
+                        <div class="flex-60">
+                            <button class="add-cart">Adicionar ao Carrinho</button>
+                        </div>
+                </div>
+            </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="prod-detail">
+                        <div class="buttons-top">
+                            <a href="/index/"><i class="ri-arrow-left-s-line"></i></a>
+                            <a href="#"><i class="ri-heart-3-line"></i></a>
+                            <a href="#"><i class="ri-share-line"></i></a>
+                        </div>
+                        <img src="img/cortador grama.png">
+                    </div>
+                    <div class="prod-content">
+                        <div class="block">
+                            <div class="line padding-top">
+                                <b>Cortador de Grama</b>
+                                <button class="promo-btn">Promoção</button>
+                                
+                            </div>
+                            <div class="margin-top align-items-center justify-content-start">
+                                <button class="btn-rates">
+                                    <i class="mdi mdi-star"></i>
+                                    4.8
+                                </button>
+                                <button class="btn-rates">
+                                    <i class="ri-thumb-up-fill"></i>
+                                    46%
+                                </button>
+                                <span class="color-gray">31 Reviews</span>
+                            </div>
+                            <div class="display-flex align-items-center justify-content-center">
+                                <p>
+                                    O cortador de grama elétrico Garthen é ideal para corte de gramados em pequenas/médias áreas, em terrenos não rochosos. Possui isolamento contra choques elétricos, trava de segurança e freio de motor, proporcionando maior segurança durante o uso. Com cabo dobrável, 
+                                    sistema de trava para extensão e regulagem de altura de corte através de uma única alavanca, sua base é produzida em termoplástico de alta resistência.
+                                </p>
+                            </div>
+
+                            <table>
+                                <tr>
+                                    <th>
+                                        Especificações
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>Linha</td>
+                                    <td>GC-34</td>
+                                </tr>
+                                <tr>
+                                    <td>Tensão/Código</td>
+                                    <td>127V (Cód.: 33946.6) / 220V (Cód.: 34035.6)</td>
+                                </tr>
+                                <tr>
+                                    <td>Potência</td>
+                                    <td>1800W</td>
+                                </tr>
+                                <tr>
+                                    <td>Frequência</td>
+                                    <td>60 Hz</td>
+                                </tr>
+                                <tr>
+                                    <td>Área de Corte (mm)</td>
+                                    <td>320</td>
+                                </tr>
+                                <tr>
+                                    <td>Recolhedor Volume</td>
+                                    <td>24 litros</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>
